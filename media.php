@@ -18,12 +18,12 @@
 
     if ($media >= 8) {
         echo "<br>";
-        echo "<h4 style='color: green' >
-        Você foi aprovado !</h4>";
+        echo "<h2 style='color: green' >
+        Você foi aprovado !</h2>";
     }else{
         echo "<br>";
-        echo "<h4 style='color: red' >
-        mais sorte no próximo ano</h4>";
+        echo "<h2 style='color: red' >
+        mais sorte no próximo ano</h2>";
     }
         
 
