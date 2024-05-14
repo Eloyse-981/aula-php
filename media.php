@@ -5,25 +5,26 @@
     <title>Média</title>
 </head>
 <body>
+    
     <h1> Média dos alunos do 3A Sesi Moreno </h1>
     <?php
 
-    $nota1 = 10;
-    $nota2 = 6;
-    $nota3 = 8;
+    $nota1 = $_GET['nota1'];
+    $nota2 = $_GET['nota2'];
+    $nota3 = $_GET['nota3'];
 
     $media = ($nota1 + $nota2 + $nota3) / 3;
 
-    echo "sua média é igual a $media";
+    echo "<h3> sua média é igual a $media <h3>";
 
     if ($media >= 8) {
         echo "<br>";
-        echo "<h2 style='color: green' >
-        Você foi aprovado !</h2>";
+        echo "<h1 style='color: green' >
+        Você foi aprovado !</h1>";
     }else{
         echo "<br>";
-        echo "<h2 style='color: red' >
-        mais sorte no próximo ano</h2>";
+        echo "<h3 style='color: red' >
+        mais sorte no próximo ano</h3>";
     }
         
 
